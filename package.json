@@ -1,0 +1,9 @@
+{
+  "name": "360medicare-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "360 Medicare \u2014 September 2026 dashboard, ROI and reports (static site).",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000"
+  }
+}

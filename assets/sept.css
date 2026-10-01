@@ -1,0 +1,19 @@
+/* September edition additions — builds on styles.css tokens */
+.login-wrap{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:linear-gradient(135deg,var(--ink,#0E2B36),#0b4a52);padding:20px}
+.login{width:100%;max-width:380px;background:var(--card);border-radius:14px;padding:30px 28px;box-shadow:0 20px 60px #0006}
+.login img{height:34px;margin-bottom:18px}
+.login h2{font-family:var(--display);font-size:21px;margin-bottom:4px}
+.login p{color:var(--muted);font-size:13px;margin-bottom:18px}
+.login .err{color:var(--danger);font-size:12.5px;min-height:18px;margin-top:8px}
+.login input{width:100%}
+.hidden{display:none!important}
+.roi-x{font-family:var(--display);font-weight:600}
+.linkrow{cursor:pointer}.linkrow:hover td{background:var(--primary-soft)}
+a.lk,.lk{color:var(--primary);cursor:pointer;text-decoration:none;border:0;background:none;padding:0;font:inherit}
+.lk:hover{text-decoration:underline}
+.note{border-left:3px solid var(--warning);background:var(--card);border-radius:8px;padding:10px 14px;font-size:12.5px;color:var(--muted);border:1px solid var(--border);border-left:3px solid var(--warning)}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.num-r{text-align:right;white-space:nowrap}
+.seg{height:10px;border-radius:6px;background:var(--border);overflow:hidden;display:flex}
+.seg i{display:block;height:100%}
+@media print{.sidebar,.topbar,.menubtn,.noprint,.toasts{display:none!important}.main{margin:0!important}.content{padding:0!important}body{background:#fff}}
